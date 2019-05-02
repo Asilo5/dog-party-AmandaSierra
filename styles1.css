@@ -19,12 +19,12 @@ nav{
   padding: 15px;
   margin: 0;
   border-bottom: 5px solid #048eaa;
-  height: 80px;
+  height: 75px;
 }
 
 .iconImg {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   float: left;
 }
 
@@ -41,28 +41,45 @@ nav li {
 header {
   background-image: url('images/park.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  opacity: 0.7;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 40px;
 }
 
-img {
-	border-radius: 50%;
+span {
+  font-weight: 800;
 }
 
 .main-doggo {
-  float: center;
+  border-radius: 50%;
+  width: 20%;
 }
 
 .puppers {
   border: 5px solid #048eaa;
 }
 
-form {
+.puppers-header{
+  width: 80%;
+  border-radius: 50%;
+}
+
+.center-img-header{
+  display: block;
   text-align: center;
+}
+
+form {
+  width: 35%;
+  padding: 20px;
+  margin: auto;
 }
 
 form p {
@@ -70,24 +87,34 @@ form p {
 }
 
 .textbox {
-  height: 40px;
+  height: 50px;
   font-size: 20pt;
+  width: 400px;
+  margin: 20px 0;
 }
 
 .doggo-button {
-  height: 40px;
   background-color: #75e2e6;
   font-size: 20px;
-  border: none;
-  padding: 10px;
+  border: none; 
+  border-radius: 2px;
+  width: 400px;
+  height: 50px;
 }
 
 section {
+  padding: 20px;
 }
 
 .col {
   width: 33%;
   display: inline-block;
+  padding: 20px;
+}
+
+.pupper-paragraph {
+  padding: 20px;
+  min-height: 289px;
 }
 
 /*.row {
@@ -96,7 +123,7 @@ section {
 }*/
 
 /*.col-1 {
-  float: left;
+  padding
 }
 
 .col-2 {
@@ -114,6 +141,7 @@ button {
   padding: 20px;
   width: 285px;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 footer {
@@ -126,7 +154,12 @@ footer p {
   color: #ffffff;
 }
 
-footer img {
-  text-align: center;
+footer .footer-icon {
   padding: 20px;
 }
+
+footer .f-icon {
+  display: block;
+  text-align: center;
+}
+
