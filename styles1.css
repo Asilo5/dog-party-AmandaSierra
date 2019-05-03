@@ -39,10 +39,9 @@ nav li {
 }
 
 header {
-  background-image: url('images/park.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/park.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  opacity: 0.7;
   padding: 20px;
 }
 
@@ -66,15 +65,13 @@ span {
   border: 5px solid #048eaa;
 }
 
-.puppers-header{
-  width: 80%;
-  border-radius: 50%;
-}
 
 .center-img-header{
   display: block;
   text-align: center;
+  margin-bottom: -48px;
 }
+
 
 form {
   width: 35%;
@@ -84,6 +81,7 @@ form {
 
 form p {
   color: #ffffff;
+  margin-bottom: -14px;
 }
 
 .textbox {
@@ -106,6 +104,10 @@ section {
   padding: 20px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .col {
   width: 33%;
   display: inline-block;
@@ -114,7 +116,14 @@ section {
 
 .pupper-paragraph {
   padding: 20px;
-  min-height: 289px;
+  min-height: 236px;
+}
+
+.puppers-header{
+  width: 80%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
 }
 
 /*.row {
