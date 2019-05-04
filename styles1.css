@@ -72,11 +72,17 @@ span {
   margin-bottom: -48px;
 }
 
+hr {
+  display: none;
+}
+
 
 form {
   width: 35%;
   padding: 20px;
   margin: auto;
+  position: relative;
+  left: 33px;
 }
 
 form p {
@@ -126,22 +132,7 @@ h2 {
   margin: auto;
 }
 
-/*.row {
-  width: 300px;
-  text-align: center;
-}*/
 
-/*.col-1 {
-  padding
-}
-
-.col-2 {
-  float: left;
-}
-
-.col-3 {
-  float: left;
-}*/
 
 button {
   background-color: #048eaa;
@@ -151,6 +142,9 @@ button {
   width: 285px;
   font-size: 20px;
   border-radius: 5px;
+  position: relative;
+  left: 54px;
+  top: -34px;
 }
 
 footer {
