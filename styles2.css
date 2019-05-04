@@ -8,11 +8,10 @@ body {
 }
 
 .iconImg {
-	height: 125px;
+	height: 188px;
 	background-color: #9A969C;
 	width: 172px;
-	padding: 5px;
-
+	padding: 30px 0;
 }
 
 nav {
@@ -40,7 +39,6 @@ li {
 	display: block;
 	width: 100%;
 	padding: 20px;
-
 }
 
 header {
@@ -52,9 +50,17 @@ header {
 h1 {
 	margin-top: 0;
 	position: absolute;
-	top: 40px;
-	left: 500px;
+	top: 74px;
+	left: 479px;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 35px;
 }
+
+span {
+	font-weight: 800;
+}
+
 
 .main-doggo{
 	border-radius: 50%;
@@ -66,12 +72,27 @@ h1 {
 
 form {
 	position: absolute;
-	left: 600px;
-	bottom: 100px;
+	left: 480px;
+	bottom: 62px;
+}
+
+form p {
+	color: #ffffff;
 }
 
 .doggo-button {
+	background-color: #9A969C;
+    font-size: 20px;
+    border: none; 
+    border-radius: 2px;
+    width: 400px;
+    height: 50px;
 	margin: 20px 0;
+}
+
+input.text-box {
+	height: 50px;
+	width: 400px;
 }
 
 section {
