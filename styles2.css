@@ -147,4 +147,23 @@ footer {
 
 footer p {
 	color: #ffffff;
+	font-size: 26px;
+	position: relative;
+	left: 722px;
+}
+
+.f-icon {
+	position: relative;
+	top: -67px;
+	left: 1067px;
+	display: inline-block;
+	width: 153px;
+}
+
+.footer-icon {
+	padding: 12px;
+}
+
+.tweet {
+	padding-right: 0px;
 }
