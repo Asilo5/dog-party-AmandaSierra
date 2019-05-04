@@ -99,7 +99,44 @@ section {
 	margin-left: 172px;
 }
 
+h2 {
+	margin-left: 67px;
+}
+
+.puppers-header {
+	border-radius: 50%;
+	margin: 0 30px;
+	height: 189px;
+	border: 5px solid #9A969C;
+}
+
+.pupper-paragraph{
+    width: 506px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+button {
+	float: right;
+	padding: 11px;
+	width: 196px;
+	font-size: 24px;
+	background-color: #3E3544;
+	color: white;
+	margin-right: 105px;
+}
+
+.col {
+	padding: 20px;
+}
+
 footer {
 	margin-left: 172px;
 	background-color: #3E3544;
+	padding: 20px;
+}
+
+footer p {
+	color: #ffffff;
 }
