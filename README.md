@@ -17,7 +17,9 @@
 
 # Screenshots
 
+** PLEASE OPEN IMAGE ON NEW TAB
 
+https://github.com/Asilo5/dog-party-AmandaSierra/tree/master/website-copies
 
 
 
