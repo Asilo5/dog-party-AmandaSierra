@@ -1,7 +1,7 @@
 
 # Dog Party
 
-** Description
+**Description**
 
 - Created two different css designs with one HTML.
 
@@ -17,7 +17,7 @@
 
 # Screenshots
 
-** PLEASE OPEN IMAGE ON NEW TAB
+**PLEASE OPEN IMAGE ON NEW TAB**
 
 https://github.com/Asilo5/dog-party-AmandaSierra/tree/master/website-copies
 
